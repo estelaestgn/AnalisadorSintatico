@@ -145,7 +145,7 @@ public class Main
         analisador.parse();
         
         // 2º Teste - Sintaticamente incorreto
-        input = "-10 / 2 )";
+        input = "(-10 / 2";
         analisador = new Sintatico(input);
         analisador.parse();
         

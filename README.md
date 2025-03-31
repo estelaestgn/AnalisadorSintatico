@@ -1,4 +1,4 @@
-# Analisador Sintatico
+# Analisador Sintático
 
 ## Descrição da Gramática Fornecida
 

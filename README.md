@@ -90,7 +90,7 @@ Neste caso de teste, a entrada foi corretamente analisada e os conjuntos **First
 **Entrada:**
 
 ```java
-String input = "9 + * 23";
+String input = "(-10 / 2";
 ```
 
 **Execução:**
@@ -100,7 +100,7 @@ A entrada contém um erro de sintaxe, pois o operador `*` aparece imediatamente 
 **Saída Esperada:**
 
 ```
-Erro de sintaxe: Esperado um id ou número
+Erro de sintaxe: Esperado ')'
 ```
 
 Neste caso, a entrada não segue a estrutura esperada da gramática e um erro de sintaxe é detectado e exibido.
